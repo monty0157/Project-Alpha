@@ -7,15 +7,6 @@ import Button from 'react-bootstrap/lib/Button';
 
 class App extends Component {
 
-  static contextTypes = {
-    router: PropTypes.object.isRequired,
-  }
-
-  @autobind
-  handleRouteToSite() {
-    this.context.router.push('/site')
-  };
-
   render() {
     return(
       <div className="jumbotron">
