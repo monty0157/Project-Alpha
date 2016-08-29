@@ -1,29 +1,42 @@
 import React, { Component, PropTypes } from 'react';
 import { createContainer } from 'meteor/react-meteor-data';
 import { autobind } from 'core-decorators';
-
-import Button from 'react-bootstrap/lib/Button';
-
-
 class App extends Component {
-
-  static contextTypes = {
-    router: PropTypes.object.isRequired,
-  }
-
-  @autobind
-  handleRouteToSite() {
-    this.context.router.push('/site')
-  };
-
   render() {
     return(
-      <div className="jumbotron">
-        <h1> App page </h1>
-        <button
-          className="btn btn-primary"
-          type="submit"
-          onClick={this.handleRouteToSite}>Jadasd</button>
+      <div>
+        <div className="header">
+          <div className="tabs-nest">
+            <div className="logo"><img src="images/Placeholder+Logo.png" width="80"></img>
+            </div>
+            <div className="student"><img className="student-picture" src="images/profile-placeholder.gif" width="53"></img>
+              <div className="nest-down-center">
+                <div className="student-name">Student name</div>
+                <div className="student-class">Student class</div>
+              </div>
+            </div>
+            <div className="tab">
+              <h1 className="tab-text">Forside</h1>
+            </div>
+            <div className="tab">
+              <h1 className="tab-text">Fravær</h1>
+            </div>
+            <div className="tab">
+              <h1 className="tab-text">Skema</h1>
+            </div>
+            <div className="tab">
+              <h1 className="tab-text">afleveringer</h1>
+            </div>
+            <div className="tab">
+              <h1 className="tab-text">karaktere</h1>
+            </div>
+            <div className="tab">
+              <h1 className="tab-text">Beskeder</h1>
+            </div>
+            <div className="login-logout"><img className="logout" src="images/User-Interface-Logout-icon.png" width="40"></img>
+            </div>
+          </div>
+        </div>
       </div>
     )
   }
