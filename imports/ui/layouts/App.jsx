@@ -2,6 +2,10 @@ import React, { Component, PropTypes } from 'react';
 import { createContainer } from 'meteor/react-meteor-data';
 import { autobind } from 'core-decorators';
 class App extends Component {
+<<<<<<< HEAD
+=======
+
+>>>>>>> 84d16b7e4132276b56036dd6f5c61878b7142f4a
   render() {
     return(
       <div>
