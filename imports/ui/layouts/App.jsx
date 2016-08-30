@@ -6,15 +6,6 @@ class App extends Component {
 
   render() {
     return(
-    <head>
-      <meta charset="utf-8"></meta>
-      <title>New lectio</title>
-      <meta content="width=device-width, initial-scale=1" name="viewport"></meta>
-      <link href="../../../clint/main.css" rel="stylesheet" type="text/css"></link>
-      <script src="../../../clint/main.js" type="text/javascript"></script>
-      <link href="https://daks2k3a4ib2z.cloudfront.net/img/favicon.ico" rel="shortcut icon" type="image/x-icon"></link>
-      <link href="https://daks2k3a4ib2z.cloudfront.net/img/webclip.png" rel="apple-touch-icon"></link>
-    </head>
       <div>
         <div className="header">
           <div className="tabs-nest">
